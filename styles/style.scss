@@ -1,0 +1,18 @@
+$header1: 4rem;
+$header2: 3rem;
+$header3: 2.6rem;
+$header4: 2.2rem;
+$text: 1.8rem;
+
+$radial-gradient: radial-gradient(40.14% 40.14% at 50% 50%, #DF1F2D 0%, #B11313 100%, #B11313 100%);
+$main-color: white;
+$highlight-color: red;
+
+@mixin flex($direction, $justify, $align){
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@import 'global';
+@import 'landing-page';
