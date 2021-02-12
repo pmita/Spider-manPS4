@@ -104,9 +104,9 @@ a {
   padding: 100px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(450px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-  grid-auto-rows: minmax(180px, 1fr);
+  -ms-grid-columns: (minmax(500px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-auto-rows: minmax(200px, 1fr);
   gap: 10rem;
   position: relative;
 }
@@ -120,18 +120,18 @@ a {
   z-index: 1;
 }
 
-.landing-page-content .content-actions {
+.content-actions {
   z-index: 100;
   -ms-grid-column-align: start;
       justify-self: start;
-  -ms-flex-item-align: start;
-      -ms-grid-row-align: start;
-      align-self: start;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
   padding: 100px 0 0 0;
 }
 
-.landing-page-content .content-actions button {
-  margin: 5rem 0;
+.content-actions button {
+  margin: 5rem 0 0 0;
   color: black;
   background: white;
   border: 2px solid white;
@@ -139,13 +139,13 @@ a {
   padding: 10px 20px;
 }
 
-.landing-page-content .content-reviews {
+.content-reviews {
   z-index: 100;
   -ms-grid-column-align: end;
       justify-self: end;
-  -ms-flex-item-align: start;
-      -ms-grid-row-align: start;
-      align-self: start;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
   padding: 100px 0 0 0;
 }
 
@@ -162,18 +162,18 @@ a {
   .landing-page-content .content-actions {
     -ms-grid-column-align: center;
         justify-self: center;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
     padding: 0 0 0 0;
   }
   .landing-page-content .content-reviews {
     z-index: 100;
     -ms-grid-column-align: center;
         justify-self: center;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
     padding: 0 0 0 0;
   }
   .position video {
