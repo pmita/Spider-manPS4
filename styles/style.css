@@ -260,4 +260,71 @@ a {
     }
 }
 */
+.details {
+  min-height: 100vh;
+  width: 100%;
+  padding: 100px 50px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+}
+
+.details .details-header {
+  text-align: center;
+}
+
+.details .game-modes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-auto-rows: minmax(480px, 1fr);
+  gap: 1rem;
+}
+
+.details .game-modes .box {
+  background: rgba(196, 196, 196, 0.05);
+  border-bottom: 2px solid red;
+  margin: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.details .game-modes .box img {
+  width: 284px;
+  height: 170px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.details .game-modes .box button {
+  border: none;
+  background: white;
+  color: red;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
 /*# sourceMappingURL=style.css.map */
