@@ -4,6 +4,7 @@
   background: white;
   border: 2px solid white;
   padding: 10px 20px;
+  cursor: pointer;
 }
 
 .button-action:hover {
@@ -22,6 +23,7 @@
 
 html {
   font-size: 62.5%;
+  line-height: 1.3;
 }
 
 body {
@@ -54,6 +56,7 @@ li {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 .landing-page {
@@ -389,5 +392,42 @@ a {
 
 .buy-details h4 {
   padding: 10px;
+}
+
+footer {
+  min-height: 50vh;
+  width: 100%;
+  padding: 100px;
+  background: radial-gradient(40.14% 40.14% at 50% 50%, #DF1F2D 0%, #B11313 100%, #B11313 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+footer .footer-box {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30rem;
+          flex: 1 1 30rem;
+  margin: 0 25px;
+}
+
+footer .footer-box h1 {
+  padding: 50px;
+}
+
+footer .footer-box ul li {
+  padding: 5px;
 }
 /*# sourceMappingURL=style.css.map */

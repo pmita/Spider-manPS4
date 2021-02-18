@@ -20,6 +20,7 @@ $highlight-color: red;
     background: $main-color;
     border: 2px solid $main-color;
     padding: 10px 20px;
+    cursor: pointer;
 }
 
 .button-action:hover{
@@ -33,3 +34,4 @@ $highlight-color: red;
 @import 'landing-page';
 @import 'details';
 @import 'games';
+@import 'footer';

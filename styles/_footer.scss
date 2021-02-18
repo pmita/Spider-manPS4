@@ -1,0 +1,19 @@
+footer{
+    min-height: 50vh;
+    width: 100%;
+    padding: 100px;
+    background: $radial-gradient;
+    display: flex;
+    flex-wrap: wrap;
+    @include flex(row, space-evenly,flex-start);
+    .footer-box{
+        flex: 1 1 30rem;
+        margin: 0 25px;
+        h1{
+            padding: 50px;
+        }
+        ul li{
+            padding: 5px;
+        }
+    }
+}
